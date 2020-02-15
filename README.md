@@ -13,7 +13,7 @@ Desafio Atados
 <br>
 
 ## Desafio
-Implementar um script que simula a comprar de um ação e executa a vendê-la em um curto espaço de tempo, mas apenas se esta operação dê lucro. 
+Implementar um script que simula a comprar de um ação e executa a vendê-la em um curto espaço de tempo, mas apenas se está operação der lucro. 
 Será passado um array com os valores das ações para cada dias, onde ele poderá escolher onde comprar e vender.
 
 Determine o maior lucro dado por esse array de preços.
