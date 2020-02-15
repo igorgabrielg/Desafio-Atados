@@ -1,3 +1,17 @@
+import random
+
+
+def gerar_valores(dias: int) -> list:
+    """
+    Gera uma List Comprehensions dos valor por dia
+
+    :param dias: int
+    :return valores: List Comprehensions
+    """
+
+    return [random.randint(1, 10) for _ in range(dias)]
+
+
 def melhor_situação(valores: list) -> int:
     """
     Determine o maior lucro dado esse array
@@ -29,7 +43,10 @@ def melhor_situação(valores: list) -> int:
 
 
 def run():
-    print(f"Output: {melhor_situação([7,1,5,3,6,4])}")
+    dias = int(input("Digite o total de dias: "))
+    array_k = gerar_valores(dias)
+    print(f"Input: {array_k}")
+    print(f"Output: {melhor_situação(array_k)}")
 
 
 if __name__ == '__main__':
